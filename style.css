@@ -30,7 +30,7 @@
 }
 
 .theme-text-lightgreen {
-  color: #A1A85D;
+  color: #b6be69;
 }
 
 .theme-text-brown {
@@ -50,7 +50,7 @@
 }
 
 .theme-bg-lightgreen {
-  background-color: #A1A85D;
+  background-color: #b6be69;
 }
 
 .theme-bg-brown {
@@ -70,12 +70,15 @@
 }
 
 .theme-border-lightgreen {
-  background-color: #A1A85D;
+  background-color: #b6be69;
 }
 
 .theme-border-brown {
   background-color: #403128;
 }
+
+
+/* --- */
 
 
 .progress-label {
