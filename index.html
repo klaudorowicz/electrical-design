@@ -6,14 +6,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-   +0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-   +0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!-- Override CSS -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+  <link rel="manifest" href="./icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
 
   <title>El Design</title>
 
 
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navigation-main" data-bs-offset="100" tabindex="0">
+
+<div class="background d-flex align-items-stretch py-2">
+  <div class="container d-flex my-5">
+    <div class="row align-items-center w-100 g-0">
+
+      <div class="col-12 col-md-5 text-center text-white bg-dark-transparent pe-3 rounded-start">
+        <div class="position-relative pb-5">
+          <img src="./images/logo_white.png" alt="Logo El Design" height="100"
+            class="position-absolute top-0 start-50 translate-middle">
+        </div>
+
+        <h1 class="display-3">
+          El Design
+        </h1>
+        
+        <p class="lead">Zaprojektuj sobie profesjonalną instalację elektryczną do swojego wymarzonego domu.</p>
+
+        <p><a class="btn btn-lg btn-outline-light rounded-3 border-2" href="#kontakt">Sprawdź nas</a></p>
+
+      </div>
+
+      <div class="col-12 col-md-7 mt-3 mt-md-0">
+        <div class="carousel slide" id="herocarousel" data-bs-ride="carousel">   
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#herocarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slajd: Zdjęcia"></button>
+            <button type="button" data-bs-target="#herocarousel" data-bs-slide-to="1" aria-label="Slajd: Zdjęcia"></button>
+            <button type="button" data-bs-target="#herocarousel" data-bs-slide-to="2" aria-label="Slajd: Zdjęcia"></button>
+          </div>
+
+          <div class="carousel-inner rounded-3">
+            <div class="carousel-item active">
+              <img src="images/hero-pic-1.jpg" class="d-block w-100" 
+              alt="https://unsplash.com/photos/2gDwlIim3Uw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">
+            </div>
+            <div class="carousel-item">
+              <img src="images/hero-pic-2.jpg" class="d-block w-100"
+                alt="https://unsplash.com/photos/wDDfbanbhl8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">
+            </div>
+            <div class="carousel-item">
+              <img src="images/hero-pic-3.jpg" class="d-block w-100" 
+              alt="https://www.freepik.com/free-photo/man-electrical-technician-working-switchboard-with-fuses-installation-connection-electrical-equipment-close-up_10376532.htm#query=switchboard&position=11&from_view=keyword Image by pvproductions on Freepik">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   
 
 

@@ -1,0 +1,88 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+
+
+.background {
+  background: center url('images/3.jpg') no-repeat;
+  background-size: cover;
+  min-height: 60vh;
+}
+
+.vertical-minus1 {
+  vertical-align: -0.05em;
+}
+
+
+
+/* Colors */
+.theme-text-light {
+  color: #FAFAF8;
+}
+
+.theme-text-primary {
+  color: #C43534;
+}
+
+.theme-text-secondary {
+  color: #A4AAA1;
+}
+
+.theme-text-lightgreen {
+  color: #A1A85D;
+}
+
+.theme-text-brown {
+  color: #403128;
+}
+
+.theme-bg-light {
+  background-color: #FAFAF8;
+}
+
+.theme-bg-primary {
+  background-color: #C43534;
+}
+
+.theme-bg-secondary {
+  background-color: #A4AAA1;
+}
+
+.theme-bg-lightgreen {
+  background-color: #A1A85D;
+}
+
+.theme-bg-brown {
+  background-color: #403128;
+}
+
+.theme-border-light {
+  border-color: #FAFAF8 !important;
+}
+
+.theme-border-primary {
+  background-color: #C43534;
+}
+
+.theme-border-secondary {
+  background-color: #A4AAA1;
+}
+
+.theme-border-lightgreen {
+  background-color: #A1A85D;
+}
+
+.theme-border-brown {
+  background-color: #403128;
+}
+
+
+.progress-label {
+  font-size: 0.9em;
+ font-weight: 600;
+}
+
+.team-card {
+  font-size: 0.9em;
+}
