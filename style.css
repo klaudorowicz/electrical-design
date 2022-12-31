@@ -2,10 +2,27 @@
   box-sizing: content-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
 
+.language {
+  background: center url('images/flag.png') no-repeat;
+  background-size: cover;
+  background-position: -10px;
+  position: absolute;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  font-size: 23px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 
 .background {
-  background: center url('images/3.jpg') no-repeat;
+  background: center url('images/1.jpg') no-repeat;
   background-size: cover;
   min-height: 60vh;
 }
