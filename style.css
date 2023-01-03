@@ -24,6 +24,7 @@ body {
   color: black;
   font-weight: bold;
   box-shadow: inset -3px -2px 15px black;
+  margin: 12px;
 }
 
 .languagePL {
