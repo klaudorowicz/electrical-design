@@ -11,6 +11,10 @@ body {
   background: center url('images/flag.png') no-repeat;
   background-size: cover;
   background-position: -10px;
+}
+
+.language,
+.languagePL {
   position: absolute;
   right: 0;
   width: 45px;
@@ -19,6 +23,11 @@ body {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  box-shadow: inset -3px -2px 15px black;
+}
+
+.languagePL {
+  background: linear-gradient(white 50%, rgb(212, 0, 0) 50%);
 }
 
 .background {
@@ -51,7 +60,7 @@ body {
 }
 
 .theme-text-brown {
-  color: #403128;
+  color: #484f31;
 }
 
 .theme-bg-light {
@@ -71,7 +80,7 @@ body {
 }
 
 .theme-bg-brown {
-  background-color: #403128;
+  background-color: #484f31;
 }
 
 .theme-border-light {
@@ -91,7 +100,7 @@ body {
 }
 
 .theme-border-brown {
-  background-color: #403128;
+  background-color: #484f31;
 }
 
 
@@ -108,8 +117,8 @@ body {
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #f1f2ed;
-  color: #a25442;
+  background-color: #FAFAF8;
+  color: #C43534;
 } 
 /* Selektor :not wybiera wszystkie elementy, które spełniają warunek bycia .accordion-button ale nie posiadają klasy .collapsed – czyli wszystkie rozwinięte elementy akordeonu. */
 
