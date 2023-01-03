@@ -106,3 +106,50 @@ body {
 .team-card {
   font-size: 0.9em;
 }
+
+.accordion-button:not(.collapsed) {
+  background-color: #f1f2ed;
+  color: #a25442;
+} 
+/* Selektor :not wybiera wszystkie elementy, które spełniają warunek bycia .accordion-button ale nie posiadają klasy .collapsed – czyli wszystkie rozwinięte elementy akordeonu. */
+
+.accordion-button {
+font-weight: 600;
+}
+
+.image-background-qa {
+background: center url('images/qa.jpg') no-repeat;
+background-size: cover;
+
+height: 100%;
+min-height: 30vh;
+}
+
+@media screen and (min-width: 768px) {
+  .featured-card {
+    margin-left: -1px;
+    margin-right: -1px;
+  }
+
+  .pricing-card .card-header {
+    padding-top: 20px;
+  }
+
+  .featured-card .card-header {
+    padding-top: 40px;
+  }
+
+  .pricing-card.order-md-1 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    margin-top: 20px;
+  }
+
+  .pricing-card.order-md-3 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    margin-top: 20px;
+  }
+}
